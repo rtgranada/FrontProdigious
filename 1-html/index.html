@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
 </head>
 <body>
-    <nav>
+    <nav class="header">
         <object type="image/svg+xml" data="assets/img/menu.svg" style="width: 40px"></object>
         <object type="image/svg+xml" data="assets/img/logo.svg" style="width: 50px"></object>
         <object type="image/svg+xml" data="assets/img/search.svg" style="width: 40px"></object>
     </nav>
     
-    <nav id="search">
+    <nav class="search">
         <object type="image/svg+xml" data="assets/img/logo.svg" style="width: 50px"></object>
         <object type="image/svg+xml" data="assets/img/cross.svg" style="width: 40px"></object><br/>
         <input type="search" id="site-search" name="site-search" aria-label="Digite o que deseja buscar" placeholder="Digite o que deseja buscar">
@@ -27,10 +27,10 @@
         <object type="image/svg+xml" data="assets/img/cross.svg" style="width: 40px"></object>
         <object type="image/svg+xml" data="assets/img/logo.svg" style="width: 50px"></object>
         <ul>
-            <li>Quem somos</li>
-            <li>Trabalhe conosco</li>
-            <li>Pessoas</li>
-            <li>Cases</li>
+            <li><a href="#quem-somos" title="Quem Somos">Quem somos</a></li>
+            <li><a href="#trabalhe-conosco" title="Trabalhe conosco">Trabalhe conosco</a></li>
+            <li><a href="#pessoas" title="Pessoas">Pessoas</a></li>
+            <li><a href="#cases" title="Cases">Cases</a></li>
             <li class="social">
                 <object type="image/svg+xml" data="assets/img/instagram.svg" style="width: 30px"></object>
                 <object type="image/svg+xml" data="assets/img/facebook.svg" style="width: 30px"></object>
@@ -52,77 +52,74 @@
         </section>
         <section id="images">
             <h1>Galeria de imagens</h1>
-            <figure>
-                <img src="assets/img/imagem-1.png" alt="Parceiro">
-            </figure>
+            <button class="btn-preview"><</button>
+            <picture>
+                <source media="(min-width:650px)" srcset="assets/img/imagem-1.png">
+                <source media="(min-width:465px)" srcset="assets/img/imagem-2.png">
+                <img src="assets/img/imagem-1.png" alt="Imagem1">
+              </picture>
+              <button class="btn-next">></button><br>
+              <div class="bullets">
+                <span class="bullet active">&#8226;</span>
+                  <span class="bullet">&#8226;</span>
+                  <span class="bullet">&#8226;</span>
+              </div>
+            
 
-            <ul>
-                <li id="texto1">
+            <ul class="expansive-menus">
+                <li class="texto1">
                     <h1>LOREM IPSUM DOLOR SIT</h1>
                     <span>-</span>
                     <div class="desc">
                         <p>Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim</p>
                     </div>
                 </li>
-                <li id="texto2">
+                <li class="texto2">
                     <h1>LOREM IPSUM DOLOR SIT</h1>
                     <span>-</span>
                     <div class="desc" hidden>
                         <p>Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim</p>
                     </div>
                 </li>
-                <li id="texto3">
+                <li class="texto3">
                     <h1>LOREM IPSUM DOLOR SIT</h1>
                     <span>-</span>
                     <div class="desc" hidden>
                         <p>Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim</p>
                     </div>
                 </li>
-                <li id="texto4">
+                <li class="texto4">
                     <h1>LOREM IPSUM DOLOR SIT</h1>
                     <span>-</span>
                     <div class="desc" hidden>
                         <p>Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim</p>
                     </div>
                 </li>
-                <li id="texto5">
+                <li class="texto5">
                     <h1>LOREM IPSUM DOLOR SIT</h1>
                     <span>-</span>
                     <div class="desc" hidden>
                         <p>Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim</p>
                     </div>
-                </li>
-                
+                </li>                
             </ul>
-            <!-- <div id="texto1">
-                <h1>LOREM IPSUM DOLOR SIT <span>-</span></h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim</p>
-            </div>
-            <div id="texto2">
-                <h1>LOREM IPSUM DOLOR SIT <span>+</span></h1>
-                <p hidden>Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim</p>
-            </div> 
-            <div id="texto3">
-                <h1>LOREM IPSUM DOLOR SIT <span>+</span></h1>
-                <p hidden>Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim</p>
-            </div> 
-            <div id="texto4">
-                <h1>LOREM IPSUM DOLOR SIT <span>+</span></h1>
-                <p hidden>Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim</p>
-            </div> 
-            <div id="texto5">
-                <h1>LOREM IPSUM DOLOR SIT <span>+</span></h1>
-                <p hidden>Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim</p>
-            </div>  -->
         </section>
-        <section id="partners">
+        <section class="partners">
             <h1>Parceiros</h1>
+            <button class="btn-preview"><</button><br>
             <figure >
                 <img src="assets/img/imagem-2.png" alt="Parceiro" >
                 <figcaption>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam<small><a href="#"> Conheça mais</a></small></figcaption>
              </figure>
+             <button class="btn-next">></button><br>
+              <div class="bullets">
+                  <span class="bullet active">&#8226;</span>
+                  <span class="bullet">&#8226;</span>
+                  <span class="bullet">&#8226;</span>
+                  <span class="bullet">&#8226;</span>
+              </div>
         </section>
-        <section id="contact">
+        <section class="contact">
             <h1>Entre em contato</h1>
             <form action="" method="post">            
                   <label for="name">Nome:</label><br/>
@@ -133,20 +130,22 @@
                   <input type="tel" name="phone" id="phone" required><br/>
                   <label for="message">Mensagem:</label><br/>
                   <textarea cols=60 id="message" rows="10" name="message" maxlength="500" wrap="hard" required></textarea><br/>
-                  <input type="submit" value="Enviar">
+                  <input type="submit" value="Enviar" class="btn-submit">
               </form>
         </section>
-        <section>
-            <p>Av. Dr. Figueiredo Mascarenhas, 94</p>
-            <p>Tres Vendas, Pelotas - RS</p>
-            <p>96055-510</p>
-            <p>(53) 3030-3030</p>
-            <ul>
-                <li><a href="#">Vagas</a></li>
-                <li><a href="#">Cases</a></li>
-                <li><a href="#">Sitemap</a></li>
-            </ul>
-        </section>
+        <footer>
+            <address>
+                Av. Dr. Figueiredo Mascarenhas, 94<br>
+                Tres Vendas, Pelotas - RS<br>
+                96055-510<br>
+                (53) 3030-3030
+            </address>            
+            <div class="footer-btns">
+                <a href="#">Vagas</a></li>
+                <a href="#">Cases</a></li>
+                <a href="#">Sitemap</a></li>
+            </div>
+        </footer>
     </main>    
 </body>
 </html>
