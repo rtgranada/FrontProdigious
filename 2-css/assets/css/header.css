@@ -1,0 +1,65 @@
+/* Header */
+#header {
+    background-color: var( --header-background);
+    display: inline-flex;
+    width: 1920px;
+    height: 64px;
+    line-height: 64px;
+    align-items: center;
+    color: var( --nav-item );  
+    margin-bottom: 46px;   
+}
+
+#header .main_title {
+    float: left;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 2.8px;    
+}
+
+#header span {
+    padding: 0% 2%;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 4.2px;  
+}
+
+#header .main {    
+    float: right;  
+    
+}
+.main_title {
+    border-right: 1px solid var(--nav-divider);
+}
+
+.main_title a {
+    color: var( --nav-title );    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links_item:not(:first-child) {
+    border-left: 1px solid var(--nav-divider);
+}
+
+.links_item a {
+    color: var( --nav-item ); 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links {
+     display: inline-block;
+     width: 81%;
+}
+.fa-bars {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: var( --nav-item ); 
+    text-decoration: none;
+    text-transform: uppercase;
+    /* background: url('../img/menu.svg') no-repeat top left; */
+    background-size: contain;
+}

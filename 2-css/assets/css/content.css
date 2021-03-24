@@ -1,0 +1,131 @@
+/* Main */
+#main {
+    float: right;
+    width: 1043px;
+    margin-right: 204px;
+}
+
+#main .post {    
+    background-color: var(--content-background);
+    margin-bottom: 70.65px;
+
+}
+
+
+#main .post .header {
+    height: 153px;
+    border-bottom: 1px solid var(--content-divider);
+    padding-top: 70px;
+    padding-left: 55px;
+    padding-right: 55px;
+  
+}
+
+#main .post .header .title{
+    width: 738px;
+    float: left;    
+}
+
+#main .post .header .title .secondary_title a{
+    font-family: "Source Sans Pro";
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 9.24px;
+    color: var(--content-title);
+    font-weight: bold;  
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#main .post .header .title .paragraph {
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3.9px;
+    color: var(--content-title-paragraph);
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+#main .post .header .meta{
+    width: 189px;
+    height: 81px;
+    float: right;
+    margin-top: 24px;
+    /* margin-right: 56px; */
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#main .post .header .meta .published {
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.68px;
+    color: var(--content-published);
+    font-weight: bold; 
+    text-decoration: none;
+    text-transform: uppercase;     
+}
+
+#main .post .header .meta .author {
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1.44px;
+    color: var(--content-author);
+    text-transform: uppercase; 
+    margin-top: 10px;
+}
+
+#main .post .header .meta .author .name{ 
+    line-height: 51px;
+}
+
+#main .post .header .meta .author img{
+    float: right;
+    border-radius: 50%;
+
+ }
+
+ #main .post .image img {
+     width: 932px;
+     height: 378.35px;
+     margin: 60px 55px;
+ }
+
+ #main .post .paragraph {    
+    margin: 0 55px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1.28px;
+    color: var(--content-paragraph);
+}
+
+#main .post .footer { 
+    margin: 60px 55px;
+    height: 62px;
+}
+.button {
+    color: var(--content-button-text);
+    text-decoration: none;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase; 
+}
+
+.large {
+    border: 1px solid var(--content-button-border);
+    padding: 21px 46px;
+    width: 254px;
+    height: 62px;
+}
+
+#sidebar { 
+    float: left;
+    width: 409.5px;
+    margin-left: 205px;
+}

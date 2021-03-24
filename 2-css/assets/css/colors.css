@@ -1,0 +1,22 @@
+:root {
+    --main-background: #F4F4F4;
+    /* Header */
+    --header-background: #FFFFFF;
+    --nav-title: #3C3B3B;
+    --nav-item: #828282;
+    --nav-divider: #EEEEEE;
+
+    /* Content */
+    
+    --content-background: #FFFFFF;
+    --content-divider: #EEEEEE;
+    --content-title: #3C3B3B;
+    --content-title-paragraph: #8E8E8E;
+    --content-published: #3C3B3B;
+    --content-author: #8E8E8E;
+    --content-paragraph: #3C3B3B;
+    --content-button-text: #3C3B3B;
+    --content-button-border: #EEEEEE;
+
+
+}
