@@ -13,5 +13,22 @@ body {
 
 #wrapper{
     width: 1920px;
-    min-height: 3500px;
+    /* min-height: 3500px; */
+}
+@media screen and (max-device-width: 768px) {
+    body {        
+        width: 768px;
+        max-width: 768px; 
+        display: block;
+    }
+    .wrapper {
+        
+    }
+}
+
+@media screen and (max-device-width: 375px) {
+    .wrapper {
+        width: 375px;
+    }
+
 }

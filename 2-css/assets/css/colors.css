@@ -19,5 +19,16 @@
     --content-button-border: #EEEEEE;
     --content-button-disabled: #D5D5D5;
 
+    --sidebar-minipost-card: #FFFFFF;
+    --sidebar-minipost-border: #EEEEEE;
+    --sidebar-minipost-title: #3C3B3B;
+    --sidebar-minipost-published: #808080;
 
+    --sidebar-posts-border: #EEEEEE;
+    --sidebar-posts-title: #3C3B3B;
+    --sidebar-posts-published: #808080;
+
+    --sidebar-about-title: #3C3B3B;
+    --sidebar-about-paragraph: #808080;
+    
 }

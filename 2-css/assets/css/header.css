@@ -11,6 +11,7 @@
 }
 
 #header .main_title {
+    padding: 0% 2%;
     float: left;
     font-weight: bold;
     line-height: 20px;
@@ -18,7 +19,7 @@
 }
 
 #header span {
-    padding: 0% 2%;
+    
     font-family: "Source Sans Pro";
     font-size: 14px;
     line-height: 18px;
@@ -26,10 +27,12 @@
 }
 
 #header .main {    
+    padding-left: 0.8%;
     float: right;  
     
 }
 .main_title {
+    line-height: 64px!important;
     border-right: 1px solid var(--nav-divider);
 }
 
@@ -42,8 +45,11 @@
 .links_item:not(:first-child) {
     border-left: 1px solid var(--nav-divider);
 }
+.links_item {
+    padding: 0% 2%;
+}
 
-.links_item a {
+.links_item a {    
     color: var( --nav-item ); 
     text-decoration: none;
     text-transform: uppercase;
@@ -53,7 +59,11 @@
      display: inline-block;
      width: 81%;
 }
-.fa-bars {
+#header > .main {
+    border-left: 1px solid var(--nav-divider);
+}
+
+.fa-bars {    
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -62,4 +72,31 @@
     text-transform: uppercase;
     /* background: url('../img/menu.svg') no-repeat top left; */
     background-size: contain;
+}
+
+@media screen and (max-device-width: 768px) {
+    #header {
+        width: 768px;
+    }
+    #header .main_title {
+        width: 50%;
+    }
+
+	#header .links{         
+        display: none;  
+    }
+
+}
+
+@media screen and (max-device-width: 375px) {
+    #header {
+        width: 100%;
+    }
+    #header .main_title {
+        width: 11.5%;
+    }
+
+	#header .links{         
+        display: none;  
+    }
 }
