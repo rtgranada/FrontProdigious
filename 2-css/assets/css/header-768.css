@@ -1,0 +1,13 @@
+@media screen and (max-device-width: 768px) {
+    /* #header {
+        width: 768px;
+    } */
+    #header .main_title {
+        width: 87%;
+    }
+
+	#header .links{         
+        display: none;  
+    }
+
+}

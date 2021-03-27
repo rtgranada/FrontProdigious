@@ -1,0 +1,59 @@
+ @media screen and (max-device-width: 768px) { 
+    #wrapper{
+        
+    }
+    #main {
+        float: left;
+        width: 100%;  
+        max-width: 768px;  
+          
+    }
+    .pagination {
+        display: flex;
+        justify-content: center;
+    }
+    #main .post .image img {
+        width: 85%;
+        height: 378.35px;
+    } 
+
+    #sidebar {
+        width: 100%;
+        float: left;
+        margin: 55px 0;   
+    }
+
+    #sidebar .mini-posts {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #sidebar .mini-post {
+        width: 48%;
+    }
+
+    #sidebar .mini-post:not(:nth-child(odd)) {        
+        margin-left: 3.4%;
+    }
+
+
+    #sidebar .posts {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #sidebar .posts > span {
+        width: 48%;
+    }
+
+    #sidebar .posts > span:not(:nth-child(odd)) {        
+        margin-left: 3.4%;
+    }
+
+    #sidebar .posts > span:nth-child(n + 5) { 
+        display: none;
+    }
+    
+ }

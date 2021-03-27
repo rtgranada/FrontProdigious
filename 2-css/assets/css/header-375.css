@@ -1,0 +1,10 @@
+@media screen and (max-device-width: 375px) {
+ 
+    #header .main_title {
+        width: 87%;
+    }
+
+	#header .links{         
+        display: none;  
+    }
+}

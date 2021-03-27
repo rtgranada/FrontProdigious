@@ -1,0 +1,256 @@
+@media screen and (max-device-width: 1920px) { 
+#main {
+    float: right;
+    width: 1043px;
+    margin-right: 204px;
+}
+
+#main .post {    
+    background-color: var(--content-background);
+    margin-bottom: 70.65px;
+}
+
+#main .post .header {
+    height: 153px;
+    border-bottom: 1px solid var(--content-divider);
+    padding-top: 70px;
+    padding-left: 55px;
+    padding-right: 55px;  
+}
+
+#main .post .header .title{
+    width: 738px;
+    float: left;    
+}
+
+#main .post .header .title .secondary_title a{
+    font-family: "Source Sans Pro";
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 9.24px;
+    color: var(--content-title);
+    font-weight: bold;  
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#main .post .header .title > .paragraph {
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3.9px;
+    color: var(--content-title-paragraph);
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+#main .post .header .meta{
+    width: 189px;
+    height: 81px;
+    float: right;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#main .post .header .meta .published {
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.68px;
+    color: var(--content-published);
+    font-weight: bold; 
+    text-decoration: none;
+    text-transform: uppercase;     
+}
+
+#main .post .header .meta .author {
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1.44px;
+    color: var(--content-author);
+    text-transform: uppercase; 
+    margin-top: 10px;
+}
+
+#main .post .header .meta .author .name{ 
+    line-height: 51px;
+}
+
+#main .post .header .meta .author img{
+    float: right;
+    border-radius: 50%;
+
+ }
+
+ #main .post .image img {
+     width: 932px;
+     height: 378.35px;
+     margin: 60px 55px;
+ }
+
+ #main .post > .paragraph {    
+    margin: 0 55px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1.28px;
+    color: var(--content-paragraph);
+}
+
+#main .post .footer { 
+    margin: 60px 55px;
+    height: 62px;
+}
+.button {
+    color: var(--content-button-text);
+    text-decoration: none;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+.large {
+    border: 1px solid var(--content-button-border);
+    padding: 21px 46px;
+    width: 254px;
+    height: 62px;
+}
+
+.disabled {
+    cursor: not-allowed;
+    color: var(--content-button-disabled);
+}
+
+#sidebar { 
+    float: left;
+    width: 409.5px;
+    margin-left: 205px;
+}
+
+#sidebar .mini-post {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#sidebar .mini-posts > .mini-post {
+    background-color: var(--sidebar-minipost-card);
+    border: 1px solid var(--sidebar-minipost-border);
+    margin-bottom: 40px;
+    
+}
+
+#sidebar .mini-posts > .mini-post > a > img{       
+    width: 100%;
+}
+
+#sidebar .mini-posts > .mini-post > .header  {
+    padding: 22px;
+}
+
+#sidebar .mini-posts > .mini-post .tertiary_title > a{    
+    text-decoration: none;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase; 
+    color: var(--sidebar-minipost-title);
+    line-height: 16px;
+    letter-spacing: 3.92px;
+    font-size: 14px;
+    float: left;
+    width: 80%;
+    
+}
+
+#sidebar .mini-posts > .mini-post .published{    
+    text-decoration: none;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase; 
+    color: var(--sidebar-minipost-published);
+    line-height: 20px;
+    letter-spacing: 1.44px;
+    font-size: 12px;
+    float: left;
+}
+#sidebar .mini-posts > .mini-post .author > img{
+    border-radius: 50%;
+    float: right;
+}  
+
+#sidebar .posts > span > div{
+    border-bottom: 1px solid var(--sidebar-posts-border);
+    /* padding-bottom: 35px; */
+    margin-top: 20px;
+    margin-bottom: 34px;
+    height: 100px;
+    /* border-bottom: 1px solid green; */
+}
+
+#sidebar .posts .header{
+    width: 75%;
+    float: right;
+}
+
+#sidebar .posts .header > .tertiary_title a {
+    text-decoration: none;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase; 
+    color: var(--sidebar-posts-title);
+    line-height: 20px;
+    letter-spacing: 3.36px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+
+#sidebar .posts .header > .published {
+    text-decoration: none;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase; 
+    color: var(--sidebar-posts-published);
+    line-height: 20px;
+    letter-spacing: 1.44px;
+    font-size: 12px;
+    float: left;
+    margin-top: 10px;
+}
+
+#sidebar .posts .image > img {
+    width: 18%;
+}
+
+#sidebar > .blurb > .secondary_title {   
+    font-family: "Source Sans Pro";
+    text-transform: uppercase; 
+    color: var(--sidebar-about-title);
+    line-height: 20px;
+    letter-spacing: 3.84px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+
+#sidebar > .blurb > .paragraph {   
+    font-family: "Source Sans Pro";
+    color: var(--sidebar-about-paragraph);
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    float: left;
+    margin: 25px 0;
+}
+
+#sidebar > .blurb > .actions {
+    float: left;
+}
+
+#sidebar > .blurb > .actions .button { 
+    border: 1px solid var(--content-button-border);
+    padding: 21px 46px;
+    width: 254px;
+    height: 62px;
+ }
+}
