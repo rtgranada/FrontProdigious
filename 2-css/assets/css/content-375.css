@@ -1,5 +1,76 @@
  @media screen and (max-device-width: 375px) { 
-    #main .post {  
-        margin-bottom: 70.65px;
+
+    #main {
+        margin: 0;
+        padding: 0;
     }
+    #main .post {  
+        margin-bottom: 30.65px;
+    }
+
+    #main .post > .header {
+        width: auto;
+        height: auto;
+        padding: 70px 70px 53px 70px;
+    }
+
+    #main .post .header .title {
+        width: 100%;
+        float: left;
+    }
+
+    #main .post .header .title > .paragraph {
+        text-align: center;
+    }
+
+    #main .post > .header > .meta {
+        display: inline-grid;
+        float: none;
+    }
+
+    #main .post .image img {
+        margin: 60px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #main .post > .paragraph {
+        text-align: left;
+        margin: 0 16px;
+    }
+
+    #main .post .footer { 
+        text-align: center;
+
+    }
+
+    .pagination {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+
+    }
+
+    .pagination > span:not(:first-child) {
+        margin-top: 13%;
+    }
+
+    #sidebar {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 60px 0 0 0;
+    }
+
+    #sidebar .mini-post {
+        width: 100%;
+        margin-left: 0!important;        
+    }
+
+    #sidebar .posts > span {
+        width: auto;
+        margin-left: 0!important;  
+    }
+
  }

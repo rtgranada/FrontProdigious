@@ -32,7 +32,7 @@
         
     }
     .main_title {
-        line-height: 64px!important;
+        line-height: 64px;
         border-right: 1px solid var(--nav-divider);
     }
 
